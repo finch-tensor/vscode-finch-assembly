@@ -1,0 +1,29 @@
+{
+  "name": "python-string-finch-asm",
+  "displayName": "python-string-finch-asm",
+  "description": "Finch Assembly highlighting for Python multiline strings.",
+  "version": "0.0.1",
+  "publisher": "finch-tensor",
+  "icon": "docs/logo.png",
+  "repository": {
+    "url": "https://github.com/finch-tensor/vscode-finch-assembly"
+  },
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "path": "./syntaxes/highlight-finch-assembly-string.json",
+        "scopeName": "python-finch-asm.injection",
+        "injectTo": [
+          "source.python"
+        ]
+      }
+    ]
+  }
+}
