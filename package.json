@@ -1,8 +1,8 @@
 {
   "name": "python-string-finch-asm",
-  "displayName": "python-string-finch-asm",
+  "displayName": "Finch Assembly Support",
   "description": "Finch Assembly highlighting for Python multiline strings.",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "finch-tensor",
   "icon": "docs/logo.png",
   "repository": {

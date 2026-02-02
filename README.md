@@ -1,16 +1,13 @@
-# python-string-finch-asm README
+# Finch Assembly in VS Code
 
-## Working with Markdown
+Finch Assembly highlighting for Python multiline strings.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## How to use it
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Highlighting is supported only for Python multiline strings `"""..."""`.
 
-## For more information
+Start your first line with `finch` or `finch-asm` tag to make given string
+highlighted. The tag must go right after opening `"""` quotation marks and
+end with a newline.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+<img src="./docs/code_example.png" width="380" />

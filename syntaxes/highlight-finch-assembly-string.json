@@ -73,7 +73,7 @@
       "patterns": [
         {
           "name": "keyword.operator.assignment.simple",
-          "match": "=|\\*|\\+|,"
+          "match": "=|\\*|\\+|-|,"
         }
       ]
     },
